@@ -1,0 +1,11 @@
+2023-08-04T03:55:36+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in /home/htmion0k34nm/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php:53
+Stack trace:
+#0 /home/htmion0k34nm/public_html/wp-includes/class-wp-hook.php(308): wc_template_redirect()
+#1 /home/htmion0k34nm/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/htmion0k34nm/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/htmion0k34nm/public_html/wp-includes/template-loader.php(13): do_action()
+#4 /home/htmion0k34nm/public_html/wp-blog-header.php(19): require_once('/home/htmion0k3...')
+#5 /home/htmion0k34nm/public_html/index.php(17): require('/home/htmion0k3...')
+#6 {main}
+  thrown en /home/htmion0k34nm/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php en la línea 53
+

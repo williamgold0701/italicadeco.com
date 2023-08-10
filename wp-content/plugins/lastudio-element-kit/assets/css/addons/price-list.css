@@ -1,0 +1,41 @@
+.lakit-price-list {
+	list-style: none;
+	margin: 0
+}
+.lakit-price-list .price-list__item-inner {
+	display: flex
+}
+.lakit-price-list .price-list__item-content {
+	width: 100%
+}
+.lakit-price-list .price-list__item-img-wrap {
+	max-width: 200px;
+	margin-right: 20px;
+	flex: 1 0 100%;
+	font-size: 0
+}
+.lakit-price-list .price-list__item-img-wrap img {
+	width: 100%
+}
+.lakit-price-list .price-list__item-title__wrapper {
+	display: flex;
+	flex: 0 1 100%;
+	flex-flow: row nowrap;
+	align-items: center
+}
+.lakit-price-list .price-list__item-title__wrapper > * {
+	flex: 0 1 auto;
+	flex-grow: 0;
+	margin: 0
+}
+.lakit-price-list .price-list__item-separator {
+	position: relative;
+	height: 0;
+	flex-grow: 1
+}
+.lakit-price-list .price-list {
+	margin: 0
+}
+.lakit-price-list .price-list__item-separator {
+	border-bottom: 2px dotted #434345
+}

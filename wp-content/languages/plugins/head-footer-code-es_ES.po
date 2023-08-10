@@ -1,0 +1,387 @@
+# Translation of Plugins - Head &amp; Footer Code - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Head &amp; Footer Code - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-04 10:50:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Head &amp; Footer Code - Stable (latest release)\n"
+
+#. translators: 1: </head>, 2: <body>, 3: </body>, 4: Plugin Settings page, 5:
+#. Allowed user roles
+#: inc/class-auhfc-meta-box.php:83
+msgid "Here you can insert article specific code for Head (before the %1$s), Body (after the %2$s) and Footer (before the %3$s) sections. They work in exactly the same way as site-wide code, which %6$s can configure under %5$s. Please note, if you leave empty any of article-specific fields and choose replace behavior, site-wide code will not be removed until you add empty space or empty HTML comment %4$s here."
+msgstr "Aquí puedes insertar código específico para el artículo en las secciones de cabecera (antes de %1$s), cuerpo (después de %2$s) y el pie de página (antes de %3$s). Funcionarán exactamente igual que el código para todo el sitio, que %6$s puedes configurar en la %5$s. Por favor, ten en cuenta que si dejas vacío alguno de los campos específicos del artículo, y eliges el comportamiento de reemplazo, el código de todo el sitio no se eliminará hasta que añadas un espacio vacío o un comentario HTML vacío %4$s aquí."
+
+#: inc/auhfc-category-meta-box.php:46 inc/class-auhfc-meta-box.php:88
+msgid "Head &amp; Footer Code"
+msgstr "Código de cabecera y pie de página"
+
+#: inc/auhfc-category-meta-box.php:46 inc/class-auhfc-meta-box.php:88
+msgid "Tools"
+msgstr "Herramientas"
+
+#. translators: 1: </head>, 2: <body>, 3: </body>, 4: Plugin Settings page, 5:
+#. Allowed user roles
+#: inc/auhfc-category-meta-box.php:41
+msgid "Here you can insert category specific code for Head (before the %1$s), Body (after the %2$s) and Footer (before the %3$s) sections. They work in exactly the same way as site-wide code, which %6$s can configure under %5$s. Please note, if you leave empty any of category-specific fields and choose replace behavior, site-wide code will not be removed until you add empty space or empty HTML comment %4$s here."
+msgstr "Aquí puedes insertar código específico para la categoría en las secciones de cabecera (antes de %1$s), cuerpo (después de %2$s) y el pie de página (antes de %3$s). Funcionarán exactamente igual que el código para todo el sitio, que %6$s puedes configurar en la %5$s. Por favor, ten en cuenta que si dejas vacío alguno de los campos específicos de la categoría, y eliges el comportamiento de reemplazo, el código de todo el sitio no se eliminará hasta que añadas un espacio vacío o un comentario HTML vacío %4$s aquí."
+
+#: inc/auhfc-category-meta-box.php:38 inc/class-auhfc-meta-box.php:80
+msgid "Administrator"
+msgstr "Administrador"
+
+#: inc/auhfc-category-meta-box.php:38 inc/class-auhfc-meta-box.php:80
+msgid "and"
+msgstr "y"
+
+#: inc/auhfc-category-meta-box.php:38 inc/class-auhfc-meta-box.php:80
+msgid "Super Admin"
+msgstr "Súper administrador"
+
+#: inc/settings.php:401
+msgid "Chose if the Homepage specific code will be enqueued on paged pages 2, 3, and so on."
+msgstr "Elije si el código específico de la página de inicio se debe añadir también en las páginas 2, 3, etc."
+
+#: inc/settings.php:398
+msgid "Do not add on paged homepage"
+msgstr "No añadir en página de inicio paginada"
+
+#: inc/settings.php:397
+msgid "Add on paged homepage"
+msgstr "Añadir en página de inicio paginada"
+
+#: inc/settings.php:389
+msgid "On paged homepage"
+msgstr "En la página de inicio paginada"
+
+#: inc/settings.php:201
+msgid "If you wish to process shortcodes in the BODY section, enable this option."
+msgstr "Activa esta opción si quieles procesar los shortcodes de la sección BODY."
+
+#: inc/settings.php:252
+msgid "Process FOOTER Shortcodes"
+msgstr "Procesar shortcodes del FOOTER"
+
+#: inc/settings.php:189
+msgid "Process BODY Shortcodes"
+msgstr "Procesar shortcodes del BODY"
+
+#: inc/settings.php:134
+msgid "If you wish to process shortcodes in the HEAD section, enable this option. Please note, shortcodes with malformed output in the HEAD section can break the rendering of your website!"
+msgstr "Si quieres procesar shortcodes en la sección HEAD activa esta opción. ¡Por favor, ten en cuenta que los shortcodes con una salida mal formada en la sección HEAD pueden romper la visualización de tu web!"
+
+#: inc/settings.php:122
+msgid "Process HEAD Shortcodes"
+msgstr "Procesar shortcodes de HEAD"
+
+#. translators: %s will be replaced with a link to wp_body_open page on
+#. WordPress.org
+#: inc/helpers.php:334
+msgid "Make sure that your active theme support %s hook."
+msgstr "Asegúrate de que tu tema activo es compatible con el gancho %s."
+
+#. translators: 1: italicized 'unseen elements', 2: <script>, 3: <style>, 4:
+#. italicized sentence 'could break layouts or lead to unexpected situations'
+#: inc/helpers.php:320
+msgid "Usage of this hook should be reserved for output of %1$s like %2$s and %3$s tags or additional metadata. It should not be used to add arbitrary HTML content to a page that %4$s."
+msgstr "El uso de este gancho debe reservarse para procesar %1$s, como las tags %2$s y %3$s o metadatos adicionales. No debería usarse para añadir contenido HTML arbitrario a una página, lo que %4$s."
+
+#: inc/helpers.php:318 inc/helpers.php:332
+msgid "IMPORTANT!"
+msgstr "¡IMPORTANTE!"
+
+#. translators: 1: </head>, 2: <body>, 3: </body>, 4 link to Head & Footer Code
+#. Settings page
+#: inc/class-auhfc-meta-box.php:94
+msgid "Here you can insert article specific code for Head (before the %1$s), Body (after the %2$s) and Footer (before the %3$s) sections. They work in exactly the same way as site-wide code, which you can configure under %5$s. Please note, if you leave empty any of article-specific fields and choose replace behavior, site-wide code will not be removed until you add empty space or empty HTML comment %4$s here."
+msgstr "Aquí puedes insertar código específico para el artículo en las secciones de cabecera (antes de %1$s), cuerpo (después de %2$s) y el pie de página (antes de %3$s). Funcionarán exactamente igual que el código para todo el sitio, que puedes configurar en la %5$s. Por favor, ten en cuenta que si dejas vacío alguno de los campos específicos del artículo, y eliges el comportamiento de reemplazo, el código de todo el sitio no se eliminará hasta que añadas un espacio vacío o un comentario HTML vacío %4$s aquí."
+
+#. translators: 1: </head>, 2: <body>, 3 </body>, 4: link to Head & Footer Code
+#. Settings page
+#: inc/auhfc-category-meta-box.php:53
+msgid "Here you can insert category specific code for Head (before the %1$s), Body (after the %2$s) and Footer (before the %3$s) sections. They work in exactly the same way as site-wide code, which you can configure under %5$s. Please note, if you leave empty any of category-specific fields and choose replace behavior, site-wide code will not be removed until you add empty space or empty HTML comment %4$s here."
+msgstr "Aquí puedes insertar código específico para la categoría en las secciones de cabecera (antes de %1$s), cuerpo (después de %2$s) y el pie de página (antes de %3$s). Funcionarán exactamente igual que el código para todo el sitio, que puedes configurar en la %5$s. Por favor, ten en cuenta que si dejas vacío alguno de los campos específicos de la categoría, y eliges el comportamiento de reemplazo, el código de todo el sitio no se eliminará hasta que añadas un espacio vacío o un comentario HTML vacío %4$s aquí."
+
+#. Description of the plugin
+msgid "Easy add site-wide, category or article specific custom code before the closing <strong>&lt;/head&gt;</strong> and <strong>&lt;/body&gt;</strong> or after opening <strong>&lt;body&gt;</strong> HTML tag."
+msgstr "Añade fácilmente código personalizado específico para un artículo, categoría o a todo el sitio antes de la etiqueta HTML <strong>&lt;/head&gt;</strong> y <strong>&lt;/body&gt;</strong> de cierre, o después de la etiqueta HTML de apertura <strong>&lt;body&gt;</strong>."
+
+#. translators: This is label for article without defined code
+#: inc/posts-custom-columns.php:91
+msgid "No custom code"
+msgstr "Sin código personalizado"
+
+#. translators: This is label for article specific mode meaning 'Replace
+#. site-wide with'
+#: inc/posts-custom-columns.php:104
+msgid "Replace"
+msgstr "Reemplazar"
+
+#. translators: This is description for article specific mode label 'Replace'
+#: inc/posts-custom-columns.php:102
+msgid "Replace site-wide code with article specific code"
+msgstr "Reemplazar el código de todo el sitio con código específico para el artículo"
+
+#. translators: This is label for article specific mode meaning 'Append to
+#. site-wide' )
+#: inc/posts-custom-columns.php:99
+msgid "Append"
+msgstr "Adjuntar"
+
+#. translators: This is description for article specific mode label 'Append'
+#: inc/posts-custom-columns.php:97
+msgid "Append article specific code to site-wide code"
+msgstr "Adjuntar el código específico del artículo al código de todo el sitio"
+
+#. translators: This is description for article without defined code
+#: inc/posts-custom-columns.php:89
+msgid "No article specific code defined in any section"
+msgstr "No se ha definido ningún código específico del artículo en ninguna sección"
+
+#: inc/posts-custom-columns.php:81
+msgid "Article specific code is defined in FOOTER section"
+msgstr "El código específico del artículo se define en la sección FOOTER"
+
+#: inc/posts-custom-columns.php:74
+msgid "Article specific code is defined in BODY section"
+msgstr "El código específico del artículo se define en la sección BODY"
+
+#: inc/posts-custom-columns.php:67
+msgid "Article specific code is defined in HEAD section"
+msgstr "El código específico del artículo se define en la sección HEAD"
+
+#: inc/settings.php:634 templates/settings.php:19
+msgid "Settings"
+msgstr "Ajustes "
+
+#: inc/settings.php:612
+msgid "Define what post types will support article specific features."
+msgstr "Define qué tipos de contenido serán compatibles con características específicas de artículos"
+
+#: inc/settings.php:605
+msgid "Define code and behavior for the Homepage in Blog Posts mode."
+msgstr "Define el código y su comportamiento para la página de inicio en el modo de entradas del blog. "
+
+#: inc/settings.php:598
+msgid "Define site-wide code and behavior. You can Add custom content like JavaScript, CSS, HTML meta and link tags, Google Analytics, site verification, etc."
+msgstr "Define el código y comportamiento en todo el sitio. Puedes añadir contenido personalizado como JavaScript, CSS, meta HTML y etiquetas de enlaces, Google Analytics, verificación del sitio, etc."
+
+#: inc/settings.php:428
+msgid "Article specific settings"
+msgstr "Ajustes específicos para artículos"
+
+#: inc/settings.php:382
+msgid "Chose how the Homepage specific code will be enqueued in relation to site-wide code."
+msgstr "Elige cómo debe encolarse el código específico para la página de inicio en relación con el código para todo el sitio."
+
+#. translators: %s will be replaced with preformatted HTML tag </body>
+#: inc/settings.php:360
+msgid "Code to enqueue in footer section (before the %s) on Homepage."
+msgstr "Código a poner en cola en la sección del pie de página (antes de %s) en la página de inicio."
+
+#: inc/settings.php:349 inc/settings.php:356
+msgid "Homepage FOOTER Code"
+msgstr "Código de PIE DE PÁGINA en la página de inicio"
+
+#. translators: %s: preformatted HTML tag <body>
+#: inc/settings.php:339
+msgid "Code to enqueue in BODY section (after the %s) on Homepage."
+msgstr "Código a poner en cola en la sección BODY (después de %s) en la página de inicio."
+
+#: inc/settings.php:328 inc/settings.php:335
+msgid "Homepage BODY Code"
+msgstr "Código de BODY en la página de inicio"
+
+#. translators: %s will be replaced with preformatted HTML tag </head>
+#: inc/settings.php:318
+msgid "Code to enqueue in HEAD section (before the %s) on Homepage."
+msgstr "Código a poner en cola en la sección HEAD (antes de %s) en la página de inicio."
+
+#: inc/settings.php:307 inc/settings.php:314
+msgid "Homepage HEAD Code"
+msgstr "Código HEAD en la pagina de inicio"
+
+#: inc/settings.php:294
+msgid "Head, body and footer code on Homepage in Blog Posts mode"
+msgstr "Código de head, body y footer en la página de inicio en el modo de entradas del blog"
+
+#. translators: %s will be replaced with preformatted HTML tag <body>
+#: inc/settings.php:152
+msgid "Code to enqueue in BODY section (after the %s)."
+msgstr "Código a poner en cola en la sección BODY (después de %s)."
+
+#. translators: %s will be replaced with preformatted HTML tag </head>
+#: inc/settings.php:89
+msgid "Code to enqueue in HEAD section (before the %s)."
+msgstr "Código a poner en cola en la sección HEAD (antes de %s)."
+
+#: inc/settings.php:65
+msgid "Site-wide head, body and footer code"
+msgstr "Código en head, body y footer en todo el sitio"
+
+#: inc/settings.php:52
+msgid "Requires WordPress 5.2 or later."
+msgstr "Requiere WordPress 5.2 o posterior."
+
+#: inc/auhfc-category-meta-box.php:84 inc/auhfc-category-meta-box.php:93
+#: inc/auhfc-category-meta-box.php:102 inc/class-auhfc-meta-box.php:112
+#: inc/class-auhfc-meta-box.php:116 inc/class-auhfc-meta-box.php:120
+msgid "Example"
+msgstr "Ejemplo"
+
+#: inc/auhfc-category-meta-box.php:73 inc/class-auhfc-meta-box.php:107
+#: inc/settings.php:379
+msgid "Replace the site-wide code"
+msgstr "Reemplazar el código de todo el sitio"
+
+#: inc/auhfc-category-meta-box.php:72 inc/class-auhfc-meta-box.php:106
+#: inc/settings.php:378
+msgid "Append to the site-wide code"
+msgstr "Adjuntar al código de todo el sitio"
+
+#: inc/auhfc-category-meta-box.php:58 inc/class-auhfc-meta-box.php:99
+msgid "Tools / Head &amp; Footer Code"
+msgstr "Herramientas / Header &amp; Footer Code"
+
+#: inc/helpers.php:324
+msgid "could break layouts or lead to unexpected situations"
+msgstr "podría romper diseños o llevar a situaciones inesperadas"
+
+#: inc/helpers.php:321
+msgid "unseen elements"
+msgstr "elementos no vistos"
+
+#: inc/helpers.php:40
+msgid "Plugin Activation Error"
+msgstr "Error de activación del plugin"
+
+#. translators: 1: Head & Footer Code, 2: PHP or WordPress, 3: min version of
+#. PHP or WordPress
+#: inc/helpers.php:35
+msgid "The %1$s plugin requires %2$s version %3$s or greater."
+msgstr "El %1$s plugin requiere la versión %3$s de %2$s o superior."
+
+#. translators: %s will be replaced with plugin name Head & Footer Code
+#: templates/settings.php:42
+msgid "Review %s plugin"
+msgstr "Valorar el plugin %s"
+
+#: templates/settings.php:36
+msgid "Community Support"
+msgstr "Soporte de la comunidad"
+
+#: templates/settings.php:34
+msgid "FAQ"
+msgstr "FAQ"
+
+#. translators: 1: default BODY priority, 2: preformatted HTML tag <body>
+#: inc/settings.php:172
+msgid "Priority for enqueued BODY code. Default is %1$d. Smaller number inject code closer to %2$s."
+msgstr "Prioridad del código del BODY en la cola. El valor por defecto es %1$d. Un número menor inyecta el código más cerca de %2$s."
+
+#: inc/settings.php:162
+msgid "BODY Priority"
+msgstr "Prioridad del cuerpo"
+
+#: inc/settings.php:141 inc/settings.php:148
+msgid "BODY Code"
+msgstr "Código del cuerpo"
+
+#: inc/auhfc-category-meta-box.php:89 inc/class-auhfc-meta-box.php:114
+msgid "Body Code"
+msgstr "Código del cuerpo"
+
+#: inc/settings.php:264
+msgid "If you wish to process shortcodes in the FOOTER section, enable this option."
+msgstr "Si quieres procesar los shortcodes en la sección del PIE DE PÁGINA, activa esta opción."
+
+#: inc/settings.php:131 inc/settings.php:198 inc/settings.php:261
+msgid "Disable"
+msgstr "Desactivar"
+
+#: inc/settings.php:130 inc/settings.php:197 inc/settings.php:260
+msgid "Enable"
+msgstr "Activar"
+
+#. translators: 1: default FOOTER priority, 2: preformatted HTML tag </body>
+#: inc/settings.php:239
+msgid "Priority for enqueued FOOTER code. Default is %1$d. Larger number inject code closer to %2$s."
+msgstr "Prioridad del código del FOOTER en la cola. El valor por defecto es %1$d. Un número menor inyecta el código más cerca de %2$s."
+
+#: inc/settings.php:229
+msgid "FOOTER Priority"
+msgstr "Prioridad del pie de página"
+
+#. translators: 1: default HEAD priority, 2: preformatted HTML tag </head>
+#: inc/settings.php:109
+msgid "Priority for enqueued HEAD code. Default is %1$d. Larger number inject code closer to %2$s."
+msgstr "Prioridad del código del HEAD en la cola. El valor por defecto es %1$d. Un número menor inyecta el código más cerca de %2$s."
+
+#: inc/settings.php:99
+msgid "HEAD Priority"
+msgstr "Prioridad de la cabecera"
+
+#: inc/settings.php:651
+msgid "Support"
+msgstr "Soporte"
+
+#: inc/settings.php:620
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para acceder a esta página."
+
+#: inc/settings.php:454
+msgid "Select which post types will have Article specific section. Please note, even if you have Head/Footer Code set per article and then you disable that post type, article specific code will not be printed but only site-wide code."
+msgstr "Selecciona qué tipos de entradas tendrán una sección específica de artículo. Ten en cuenta que, incluso si tienes un código de cabecera o pie de página establecido por artículo y luego desactivas ese tipo de entrada, el código específico del artículo no se mostrará, sino solo el código para todo el sitio."
+
+#: inc/settings.php:445
+msgid "Post Types"
+msgstr "Tipos de entrada"
+
+#. translators: %s will be replaced with preformatted HTML tag </body>
+#: inc/settings.php:219
+msgid "Code to enqueue in footer section (before the %s)."
+msgstr "Código a poner en cola en la sección footer (antes de %s)."
+
+#: inc/settings.php:208 inc/settings.php:215
+msgid "FOOTER Code"
+msgstr "Código del pie de página"
+
+#: inc/settings.php:78 inc/settings.php:85
+msgid "HEAD Code"
+msgstr "Código de la cabecera"
+
+#: inc/auhfc-category-meta-box.php:98 inc/class-auhfc-meta-box.php:118
+msgid "Footer Code"
+msgstr "Código del pie de página"
+
+#: inc/auhfc-category-meta-box.php:80 inc/class-auhfc-meta-box.php:110
+msgid "Head Code"
+msgstr "Código de la cabecera"
+
+#: inc/auhfc-category-meta-box.php:68 inc/class-auhfc-meta-box.php:104
+#: inc/settings.php:370
+msgid "Behavior"
+msgstr "Comportamiento"
+
+#. Author URI of the plugin
+msgid "https://urosevic.net/"
+msgstr "https://urosevic.net/"
+
+#. Author of the plugin
+msgid "Aleksandar Urošević"
+msgstr "Aleksandar Urošević"
+
+#. Plugin URI of the plugin
+msgid "https://urosevic.net/wordpress/plugins/head-footer-code/"
+msgstr "https://urosevic.net/wordpress/plugins/head-footer-code/"
+
+#. Plugin Name of the plugin
+#: inc/auhfc-category-meta-box.php:34 inc/class-auhfc-meta-box.php:31
+#: inc/helpers.php:36 inc/posts-custom-columns.php:37
+msgid "Head & Footer Code"
+msgstr "Head & Footer Code"

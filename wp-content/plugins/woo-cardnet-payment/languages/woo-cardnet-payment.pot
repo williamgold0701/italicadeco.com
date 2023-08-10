@@ -1,0 +1,306 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: CardNet Gateway\n"
+"POT-Creation-Date: 2020-12-18 18:07-0400\n"
+"PO-Revision-Date: 2020-12-18 18:07-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wc-cardnet-payment-gateway.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: wc-cardnet-payment-gateway.php:81
+msgid ""
+"You must place the shortcode <code> [cardnet_badget /] </code>, in the "
+"footer of your template, to validate CardNet Payments."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:94
+msgid "Datos de Transacción Azul"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:115 wc-cardnet-payment-gateway.php:216
+msgid "Successful Payment"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:121
+msgid "Declined, Must Call Bank."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:125
+msgid "The business is invalid."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:129
+msgid "Suspicious Credit Card. Call your bank."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:133
+msgid "Credit card declined. Call your bank."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:137
+msgid "The approval was for a partial amount, you must call the Bank."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:141
+msgid "VIP Approved."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:145
+msgid "The transaction is invalid. Call the merchant."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:149
+msgid "The amount is invalid. Call the merchant."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:154
+msgid "The account is invalid. Call the Bank."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:176
+msgid "Unapproved Transaction."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:180
+msgid "The card is invalid."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:184
+msgid "Declined, insufficient funds."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:188
+msgid "Declined, expired credit card."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:192
+msgid "Declined, Credit card not active."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:196
+msgid "Declined, Exceeds Cash Limit."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:200
+msgid "CVV or CVC error."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:205
+msgid "An error has occurred, you must call the merchant or the Bank."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:216
+msgid "Wrong Payment"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:269
+msgid "See Order"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:271
+msgid "Retry Payment"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:274
+msgid "Continue Shopping"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:321
+#, php-format
+msgid ""
+"CardNET payment completed successfully. The approval number is %s. And the "
+"transaction ID is %s for card %s"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:331
+msgid "Completed by user on Cardnet Payment."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:346
+msgid "Order canceled by user in Cardnet Payment."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:351
+msgid "Wrong request."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:420
+#, php-format
+msgid ""
+"Equivalent to: <strong style=\"color: #00c0f3;\">%s </strong> <small>Current "
+"dollar rate: <strong>%s</strong></small>"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:451 wc-cardnet-payment-gateway.php:454
+msgid "Payments with CardNet"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:538
+msgid "CardNET Payment Gateway"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:539
+msgid ""
+"CardNET Payment Gateway. After a successful transaction, the order will "
+"update in WooCommerce to Processing (adding a note to the order with the "
+"Approval Number, the transaction ID and the masked credit card)."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:547
+msgid ""
+"<br> <hr> <br>\n"
+"        <div>\n"
+"        Shop Currency Currently: "
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:567
+msgid "Enable / Disable"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:569
+msgid "Activate Payments with CardNET"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:574
+msgid "Badge Theme in Footer"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:580
+msgid "Indicate the color theme of the badge in the footer."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:584
+msgid "Mode"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:590
+msgid "Select Test or Production Mode"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:594
+msgid "Title"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:596
+msgid "Control the title that the user sees during checkout."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:601
+msgid "Description"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:603
+msgid "Control the description that the user sees during checkout."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:608
+msgid "Redirection Message"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:610
+msgid ""
+"Message that is displayed once the buyer completes the order and is "
+"redirected to CardNet."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:615
+msgid "Institution Code"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:617
+msgid "Please enter the InstitutionCode provided by CardNET."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:621
+msgid "Merchant Name"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:623
+msgid "Please enter the MerchantName provided by CardNET."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:627
+msgid "Merchant ID / Number"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:629 wc-cardnet-payment-gateway.php:641
+msgid "Please enter the Merchant Terminal provided by CardNET."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:633
+msgid "MCC ID"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:635
+msgid "Please enter the MCC or MerchantType provided by CardNET."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:639
+msgid "Merchant Terminal"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:645
+msgid "Results Page"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:649
+msgid ""
+"Indicates the page to which Cardnet will return the payment information. The "
+"page must have the shortcode: [cardnet_woocommerce /]"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:665
+msgid "Dollar rate"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:668
+msgid ""
+"If the currency of the store is in dollars, then enter the value of the "
+"dollar to calculate. This value will be multiplied by the total of the order."
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:831
+msgid "Pay"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:831
+msgid "Cancel and go to cart"
+msgstr ""
+
+#: wc-cardnet-payment-gateway.php:856
+msgid ""
+"Thank you for your order, please click on the button below to make your "
+"payment with CardNET."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "CardNet Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://cardnet.com.do/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Use CardNET Dominicana services and accept credit card payments in your "
+"WordPress / WooCommerce store."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CardNET"
+msgstr ""

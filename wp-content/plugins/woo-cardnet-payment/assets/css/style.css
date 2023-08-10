@@ -1,0 +1,132 @@
+/*
+Woo cardnet CSS
+@author Raylin Aquino <info@raylinaquino.com>
+@url https://raylinaquino.com
+**/
+.payment-success-cardnet-details {
+    max-width: 435px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.payment-success-cardnet-details h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.payment-success-cardnet-details p {
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.payment-success-cardnet-details a {
+    font-weight: bold;
+}
+
+.payment-success-cardnet-details a:hover {
+    text-decoration: underline;
+}
+
+.payment-success-cardnet-details table {
+    width: 100%;
+    margin: 0;
+}
+
+.payment-success-cardnet-details table tbody tr {
+    vertical-align: middle !important;
+}
+
+.payment-success-cardnet-details .wrap-table {
+    padding: 20px;
+    background: #fbfbfb;
+    line-height: 1.1;
+}
+
+.payment-success-cardnet-details .wrap-table td {
+    font-size: 14px;
+    color: #000;
+    border-radius: inherit !important;
+    border: 0;
+    padding: 2px 5px;
+    vertical-align: middle;
+}
+
+.payment-success-cardnet-details .wrap-table .td-label {
+    text-align: right;
+    padding: 5px;
+    line-height: 2.3;
+}
+
+.payment-success-cardnet-details .wrap-table .td-value {
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.payment-success-cardnet-details .cardnet-title {
+    font-size: 25px;
+    margin: 1rem 0;
+}
+
+.payment-success-cardnet-details .wrap-icon {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.payment-success-cardnet-details   img{
+    display:inline-block;
+}
+
+.payment-success-cardnet-details .wrap-see-order {
+    margin: 20px 0;
+}
+
+.payment-success-cardnet-details .wrap-see-order .btn-see-order,
+.payment-success-cardnet-details .wrap-see-order .btn-two {
+    background: #ed5773;
+    color: #fff;
+    padding: 4px 22px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: all .3s ease;
+    text-decoration: none !important;
+    text-transform: inherit;
+    font-size: 14px;
+}
+
+.payment-success-cardnet-details .wrap-see-order .btn-see-order:hover {
+    background: #dc4c81;
+}
+
+.payment-success-cardnet-details .wrap-see-order .btn-two {
+    background: #0fcbde;
+}
+
+.payment-success-cardnet-details .wrap-see-order .btn-two:hover {
+    background: #04b3c5;
+}
+
+@media(max-width:600px) {
+    .payment-success-cardnet-details table {
+        display: block;
+        width: 100%;
+    }
+
+    .payment-success-cardnet-details table tbody {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    .payment-success-cardnet-details table tr,
+    .payment-success-cardnet-details table td {
+        display: block;
+        width: 100% !important;
+        float: none;
+        text-align: center !important;
+    }
+
+}

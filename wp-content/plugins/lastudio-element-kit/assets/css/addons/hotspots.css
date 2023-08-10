@@ -1,0 +1,309 @@
+/* Animations */
+@-webkit-keyframes lakit-hotspot-soft-beat {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+@keyframes lakit-hotspot-soft-beat {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+@-webkit-keyframes lakit-hotspot-expand {
+    from {
+        transform: scale(0.5);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes lakit-hotspot-expand {
+    from {
+        transform: scale(0.5);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+/* Hotspot Wrapper */
+.elementor-widget-lakit-hotspots {
+    --hotspot-color: #fff;
+    display: flex;
+    justify-content: var(--background-align);
+}
+.elementor-widget-lakit-hotspots .elementor-widget-container {
+    width: 100%;
+}
+.elementor-widget-lakit-hotspots .elementor-widget-container > img {
+    display: block;
+    width: 100%;
+    height: var(--container-height);
+    opacity: var(--opacity, 1);
+    object-fit: cover;
+}
+/* Each Hotspot */
+.lakit-hotspot {
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    /* Hotspot Button Animations */
+    /* End: Hotspot Button Animations */
+}
+/*
+.lakit-hotspot--position-left.lakit-hotspot--position-top .lakit-hotspot__button{
+    transform: translate(calc(-1 * var(--hotspot-translate-x)), calc(-1 * var(--hotspot-translate-y)));
+}
+.lakit-hotspot--position-left.lakit-hotspot--position-bottom .lakit-hotspot__button{
+    transform: translate(calc(-1 * var(--hotspot-translate-x)), var(--hotspot-translate-y));
+}
+.lakit-hotspot--position-right.lakit-hotspot--position-top .lakit-hotspot__button{
+    transform: translate(var(--hotspot-translate-x), calc(-1 * var(--hotspot-translate-y)));
+}
+.lakit-hotspot--position-right.lakit-hotspot--position-bottom .lakit-hotspot__button{
+    transform: translate(var(--hotspot-translate-x), var(--hotspot-translate-y));
+}
+*/
+.lakit-hotspot--active {
+    z-index: 2;
+}
+.lakit-hotspot__outer-circle, .lakit-hotspot__inner-circle {
+    content: "";
+    display: inline-block;
+    box-sizing: content-box;
+    border-radius: 50%;
+}
+.lakit-hotspot__inner-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--hotspot-color);
+    padding: calc(var(--hotspot-size, 18px) / 2);
+}
+.lakit-hotspot__outer-circle {
+    background-color: var(--hotspot-color);
+    padding: var(--hotspot-padding, 4px);
+    width: var(--hotspot-size, 18px);
+    height: var(--hotspot-size, 18px);
+}
+.lakit-hotspot--icon .lakit-hotspot__button {
+    line-height: 0;
+    box-sizing: content-box;
+    font-size: var(--hotspot-size, 18px);
+    width: var(--hotspot-size, 18px);
+    height: var(--hotspot-size, 18px);
+}
+.lakit-hotspot__icon, .lakit-hotspot__label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lakit-hotspot__icon svg, .lakit-hotspot__label svg {
+    width: var(--hotspot-size, 18px);
+    height: auto;
+}
+.lakit-hotspot__button {
+    cursor: pointer;
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    color: var(--hotspot-color);
+    font-size: var(--hotspot-size, 18px);
+    min-width: var(--hotspot-button-width);
+    min-height: var(--hotspot-button-height);
+}
+.lakit-hotspot__button:before {
+    z-index: -2;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: -5px;
+    top: -5px;
+    position: absolute;
+    padding: 5px;
+    box-sizing: content-box;
+}
+.lakit-hotspot__button svg {
+    fill: var(--hotspot-color);
+}
+.lakit-hotspot:not(.lakit-hotspot--circle) .lakit-hotspot__button {
+    min-width: var(--hotspot-min-width);
+    min-height: var(--hotspot-min-height);
+    background-color: var(--hotspot-box-color);
+    padding: var(--hotspot-padding, 4px);
+    border-radius: var(--hotspot-border-radius, 3px);
+}
+.lakit-hotspot:not(.lakit-hotspot--circle) .lakit-hotspot__button:before {
+    border-radius: var(--hotspot-border-radius, 3px);
+}
+.lakit-hotspot:not(.lakit-hotspot--circle) .lakit-hotspot--expand::before {
+    background-color: var(--hotspot-box-color);
+}
+.lakit-hotspot--overlay {
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+.lakit-hotspot--overlay:hover,
+.lakit-hotspot--active .lakit-hotspot--overlay {
+    opacity: 1;
+}
+.lakit-hotspot--soft-beat {
+    animation: lakit-hotspot-soft-beat 0.7s infinite alternate;
+    animation-timing-function: ease;
+}
+.lakit-hotspot--expand .lakit-hotspot__outer-circle {
+    animation: lakit-hotspot-expand 2s infinite;
+}
+.lakit-hotspot:not(.lakit-hotspot--circle) .lakit-hotspot--expand::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    animation: lakit-hotspot-expand 2s infinite;
+}
+.lakit-hotspot--sequenced {
+    animation: fadeIn 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.lakit-hotspot__direction-mask {
+    overflow: hidden;
+    position: absolute;
+    pointer-events: none;
+}
+.lakit-hotspot__tooltip {
+    white-space: var(--white-space, nowrap);
+    transition-property: transform, opacity;
+    transition-duration: var(--tooltip-transition-duration, 500ms);
+    transform-origin: center center;
+    position: absolute;
+    pointer-events: none;
+    color: var(--tooltip-text-color, #FFF);
+    text-align: var(--tooltip-align);
+    min-width: var(--tooltip-min-width);
+    padding: var(--tooltip-padding, 8px);
+    border-radius: var(--tooltip-border-radius);
+    background-color: var(--tooltip-color);
+    width: 280px
+}
+.lakit-hotspot__tooltip p:last-of-type {
+    margin-bottom: 0;
+}
+.lakit-hotspot__direction-mask .lakit-hotspot__tooltip {
+    box-shadow: none !important;
+    position: static;
+}
+.lakit-hotspot--active .lakit-hotspot__tooltip {
+    pointer-events: visible;
+}
+.lakit-hotspot--fade-in-out {
+    opacity: 0;
+}
+.lakit-hotspot--active .lakit-hotspot--fade-in-out {
+    opacity: 1;
+}
+.lakit-hotspot--fade-grow {
+    opacity: 0;
+    transform: scale(0);
+}
+.lakit-hotspot--active .lakit-hotspot--fade-grow {
+    opacity: 1;
+    transform: scale(1);
+}
+.lakit-hotspot--tooltip-animation-from-top, .lakit-hotspot--override-tooltip-animation-from-top {
+    transform: translate(0, calc(-100% - 1px));
+}
+.lakit-hotspot--tooltip-animation-from-left, .lakit-hotspot--override-tooltip-animation-from-left {
+    transform: translate(calc(-100% - 1px), 0);
+}
+.lakit-hotspot--tooltip-animation-from-right, .lakit-hotspot--override-tooltip-animation-from-right {
+    transform: translate(calc(100% + 1px), 0);
+}
+.lakit-hotspot--tooltip-animation-from-bottom, .lakit-hotspot--override-tooltip-animation-from-bottom {
+    transform: translate(0, calc(100% + 1px));
+}
+.lakit-hotspot--fade-direction {
+    opacity: 0;
+}
+.lakit-hotspot--active .lakit-hotspot--slide-direction,
+.lakit-hotspot--active .lakit-hotspot--fade-direction {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+}
+.lakit-hotspot--show-tooltip {
+    transition: none;
+    opacity: 1;
+    pointer-events: visible;
+    transform: translate(0, 0);
+}
+.lakit-hotspot__product {
+    display: flex;
+    width: 100%;
+    line-height: 1.2;
+    align-items: flex-start;
+}
+.lakit-hotspot__product img {
+    width: 90px;
+    max-width: 30%;
+    margin-right: 20px;
+    height: auto !important;
+}
+.lakit-hotspot__product .lakit-hotspot__product_info {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 70%;
+    white-space: normal;
+}
+.lakit-hotspot__product_info .product_item--title {
+    margin-bottom: .5em;
+}
+.lakit-hotspot__product_info .product_item--price {
+    margin-bottom: .5em;
+    width: 100%;
+}
+.lakit-hotspot--always .lakit-hotspot__tooltip {
+    /*transform: translate(0, 0) scale(1);*/
+    /*opacity: 1;*/
+}
+
+.lakit-hotspot:not(.lakit-hotspot--fake) .lakit-hotspot__tooltip {
+    opacity: 0 !important;
+    pointer-events: none;
+}
+.elementor-root-fake {
+    height: 0;
+    overflow: hidden;
+}
+.elementor-root-fake .lakit-hotspot {
+    position: static;
+}
+.elementor-root-fake .lakit-hotspot__tooltip {
+    position: fixed;
+    z-index: 2;
+}
+.elementor-widget-lakit-hotspots{
+    overflow: hidden;
+}

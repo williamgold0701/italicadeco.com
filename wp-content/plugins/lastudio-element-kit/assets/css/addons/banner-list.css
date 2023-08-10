@@ -1,0 +1,87 @@
+.lakit-bannerlist__list.col-row,
+.lakit-bannerlist.lakit-carousel .lakit-bannerlist__list_wrapper,
+.lakit-bannerlist.lakit-masonry-wrapper{
+  margin-left: calc(-1 * var(--lakit-bannerlist-col-gap, 10px));
+  margin-right: calc(-1 * var(--lakit-bannerlist-col-gap, 10px));
+}
+.lakit-bannerlist.lakit-masonry-wrapper .lakit-bannerlist__list{
+  margin: 0;
+}
+
+.lastudio-kit .lakit-bannerlist__item{
+  padding: var(--lakit-bannerlist-col-gap, 10px);
+  margin-bottom: var(--lakit-bannerlist-row-gap, 0);
+}
+
+.lakit-bannerlist__link {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+.lakit-bannerlist__image {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+.lakit-bannerlist__image-instance{
+  width: 100%;
+  min-width: 50px;
+  min-height: 50px;
+  transition: transform .5s;
+  object-fit: cover;
+  transform: scale(var(--lakit-bannerlist-image-scale, 1));
+}
+.lakit-bannerlist__link:hover .lakit-bannerlist__image-instance{
+  transform: scale(var(--lakit-bannerlist-image-scale-hover, 1.15));
+}
+.lakit-bannerlist__content-inner {
+  width: var(--lakit-bannerlist-content-width, auto);
+  max-width: 100%;
+  padding: var(--lakit-bannerlist-content-padding, 0);
+  margin: var(--lakit-bannerlist-content-margin, 0);
+  border-radius: var(--lakit-bannerlist-content-radius, 0);
+}
+.enable-c-height-true .lakit-bannerlist__image-instance {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lakit-bannerlist.layout-type-overlay .lakit-bannerlist__content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  flex-basis: 100%;
+  display: flex;
+  width: 100%;
+}
+.lakit-bannerlist.layout-type-overlay  .lakit-bannerlist__content-inner{
+  position: absolute;
+}
+.lakit-bannerlist__image:after {
+  content: '';
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transition: all .4s;
+  opacity: 0;
+  mix-blend-mode: var(--lakit-banner-overlay-mix-blend-mode, 'initial');
+}
+
+.lakit-bannerlist.layout-type-overlay.lakit-masonry--cover-bg .lakit-bannerlist__image-instance{
+  height: calc( var(--item-height, auto) * 1px - var(--lakit-bannerlist-col-gap, 0) * 2);
+}
+.content-visible-hover-yes .lakit-bannerlist.layout-type-overlay .lakit-bannerlist__content{
+  opacity: 0;
+  transition: all .3s;
+}
+.content-visible-hover-yes .lakit-bannerlist.layout-type-overlay .lakit-bannerlist__inner:hover .lakit-bannerlist__content{
+  opacity: 1;
+}
